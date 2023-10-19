@@ -1,0 +1,40 @@
+h1 {
+  /* color: red;
+  color: green;
+  color: blue; */
+}
+
+h1 {
+  /* color: blue; */
+}
+
+/* css specificity  */
+/* id class selector */
+
+/*  id selector */
+/* 1-0-0 */
+#heading {
+  color: green
+}
+
+/* class selector */
+/* 0-1-0 */
+.heading {
+  color: blue;
+}
+
+/* type selector */
+/* 0-0-1 */
+h1 {
+  color: red;
+}
+
+h1 {
+  color: pink !important;
+  color: red !important;
+}
+
+
+
+
+
