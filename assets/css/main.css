@@ -1,40 +1,53 @@
-h1 {
-  /* color: red;
-  color: green;
-  color: blue; */
+/* section {
+  background-color: red;
+} */
+
+/* class combination */
+
+
+h3.heading {
+  background-color: yellow;
 }
 
-h1 {
-  /* color: blue; */
+h4.heading {
+  background-color: purple;
 }
 
-/* css specificity  */
-/* id class selector */
-
-/*  id selector */
-/* 1-0-0 */
-#heading {
-  color: green
+/* get me any section which has the class of .content */
+section.content {
+  background-color: red;
 }
 
-/* class selector */
-/* 0-1-0 */
-.heading {
-  color: blue;
+/* get me a section with class of content and then get an element inisde it which has the class of .heading */
+section.content .heading {
+  background-color: pink;
 }
 
-/* type selector */
-/* 0-0-1 */
-h1 {
-  color: red;
+.content p {
+  /* background-color: purple; */
 }
 
-h1 {
-  color: pink !important;
-  color: red !important;
+.content p.text {
+  background-color: orange;
 }
 
+section.content p.text {
+  background-color: yellow;
+}
 
+section.content button.btn#button {
+  background-color: blue;
+  color: white;
+}
 
+section.content button.btn.red#danger {
+  background-color: lightcoral;
+}
 
+section.something .block .inner button.button {
+  background-color: yellow;
+}
 
+.inner button {
+  /* background-color: orange; */
+}
